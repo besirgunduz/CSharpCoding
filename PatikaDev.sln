@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console-programlama", "cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "degisken", "degisken\degisken.csproj", "{28CBB274-29D3-491A-8D44-8F44144B4DD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "operatorler", "operatorler\operatorler.csproj", "{6C0DA084-185D-49A9-8E6B-6A81F41944D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{28CBB274-29D3-491A-8D44-8F44144B4DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28CBB274-29D3-491A-8D44-8F44144B4DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28CBB274-29D3-491A-8D44-8F44144B4DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0DA084-185D-49A9-8E6B-6A81F41944D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0DA084-185D-49A9-8E6B-6A81F41944D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0DA084-185D-49A9-8E6B-6A81F41944D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0DA084-185D-49A9-8E6B-6A81F41944D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
