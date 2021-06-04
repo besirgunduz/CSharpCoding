@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tip-donusumleri", "tip-donu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hata-yonetimi", "hata-yonetimi\hata-yonetimi.csproj", "{F44774FC-FEB3-497F-B6F3-01B7D32B193D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "il-else-if", "il-else-if\il-else-if.csproj", "{B6D4B7D1-355E-48D7-9050-73ADFFFD96A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if-else-if", "il-else-if\if-else-if.csproj", "{B6D4B7D1-355E-48D7-9050-73ADFFFD96A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
