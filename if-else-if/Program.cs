@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace il_else_if
+namespace if_else_if
 {
     class Program
     {

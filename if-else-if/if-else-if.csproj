@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>il_else_if</RootNamespace>
+    <RootNamespace>if_else_if</RootNamespace>
   </PropertyGroup>
 
 </Project>
