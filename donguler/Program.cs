@@ -35,6 +35,35 @@ namespace donguler
 
             Console.WriteLine("Tek toplam= " +tek);
             Console.WriteLine("Çift toplam= "+cift);
+
+            //while
+
+            int sayi = 10;
+            int sayac2 = 1;
+            int toplam = 0;
+            while (sayi>=sayac)
+            {
+                toplam += sayac;
+                sayac++;
+            }
+
+            Console.WriteLine(toplam);
+
+            char c = 'a';
+            while (c<='z')
+            {
+                Console.WriteLine(c);
+                c++;
+            }
+
+            //foreach
+
+            string[] arabalar = { "BMW", "Ford", "Fiat" };
+
+            foreach (var araba in arabalar)
+            {
+                Console.WriteLine(araba);
+            }
         }
     }
 }
