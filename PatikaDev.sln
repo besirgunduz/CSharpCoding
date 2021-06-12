@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "switch-case", "switch-case\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "donguler", "donguler\donguler.csproj", "{CA795445-B56E-41EA-BC01-FB635DEE6490}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diziler", "diziler\diziler.csproj", "{01773272-3D4B-44A7-93FB-76EE6126EC42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "diziler", "diziler\diziler.csproj", "{01773272-3D4B-44A7-93FB-76EE6126EC42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diziler-array-metodlari", "diziler-array-metodlari\diziler-array-metodlari.csproj", "{2C203BAD-B29C-461C-B3B6-0C6510EA9FED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "diziler-array-metodlari", "diziler-array-metodlari\diziler-array-metodlari.csproj", "{2C203BAD-B29C-461C-B3B6-0C6510EA9FED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metodlar", "metodlar\metodlar.csproj", "{0CDFC9C0-0394-4730-A8E2-49BA813D6908}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{2C203BAD-B29C-461C-B3B6-0C6510EA9FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C203BAD-B29C-461C-B3B6-0C6510EA9FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C203BAD-B29C-461C-B3B6-0C6510EA9FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CDFC9C0-0394-4730-A8E2-49BA813D6908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDFC9C0-0394-4730-A8E2-49BA813D6908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDFC9C0-0394-4730-A8E2-49BA813D6908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDFC9C0-0394-4730-A8E2-49BA813D6908}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
