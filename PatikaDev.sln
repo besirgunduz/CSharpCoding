@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "diziler", "diziler\diziler.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "diziler-array-metodlari", "diziler-array-metodlari\diziler-array-metodlari.csproj", "{2C203BAD-B29C-461C-B3B6-0C6510EA9FED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metodlar", "metodlar\metodlar.csproj", "{0CDFC9C0-0394-4730-A8E2-49BA813D6908}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "metodlar", "metodlar\metodlar.csproj", "{0CDFC9C0-0394-4730-A8E2-49BA813D6908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metod-overloading", "metod-overloading\metod-overloading.csproj", "{6D1B4B29-00C5-49BB-A3B4-2E351FE384D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "metod-overloading", "metod-overloading\metod-overloading.csproj", "{6D1B4B29-00C5-49BB-A3B4-2E351FE384D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "recursive_extension_metodlar", "recursive_extension_metodlar\recursive_extension_metodlar.csproj", "{03932E2E-0C74-43A9-8AD6-4F7839348C51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{6D1B4B29-00C5-49BB-A3B4-2E351FE384D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D1B4B29-00C5-49BB-A3B4-2E351FE384D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D1B4B29-00C5-49BB-A3B4-2E351FE384D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03932E2E-0C74-43A9-8AD6-4F7839348C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03932E2E-0C74-43A9-8AD6-4F7839348C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03932E2E-0C74-43A9-8AD6-4F7839348C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03932E2E-0C74-43A9-8AD6-4F7839348C51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
