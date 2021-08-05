@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oop_universite_yonetim_sist
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oop_hayvanat_bahcesi_yonetimi", "oop_hayvanat_bahcesi_yonetimi\oop_hayvanat_bahcesi_yonetimi.csproj", "{A43A5E6F-2E41-4F8A-BADF-2377D2975C4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oop_ucus_yonetim_sistemi", "oop_ucus_yonetim_sistemi\oop_ucus_yonetim_sistemi.csproj", "{87E3BA23-2123-4BAA-A0FE-68A52FCFCA86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{A43A5E6F-2E41-4F8A-BADF-2377D2975C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A43A5E6F-2E41-4F8A-BADF-2377D2975C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A43A5E6F-2E41-4F8A-BADF-2377D2975C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E3BA23-2123-4BAA-A0FE-68A52FCFCA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E3BA23-2123-4BAA-A0FE-68A52FCFCA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E3BA23-2123-4BAA-A0FE-68A52FCFCA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E3BA23-2123-4BAA-A0FE-68A52FCFCA86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
