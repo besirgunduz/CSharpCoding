@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oop_hayvanat_bahcesi_yoneti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oop_ucus_yonetim_sistemi", "oop_ucus_yonetim_sistemi\oop_ucus_yonetim_sistemi.csproj", "{87E3BA23-2123-4BAA-A0FE-68A52FCFCA86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oop_online_film_sitesi", "oop_online_film_sitesi\oop_online_film_sitesi.csproj", "{4A48DB48-0458-4EB1-AE16-7FA988D1A70D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{87E3BA23-2123-4BAA-A0FE-68A52FCFCA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87E3BA23-2123-4BAA-A0FE-68A52FCFCA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87E3BA23-2123-4BAA-A0FE-68A52FCFCA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A48DB48-0458-4EB1-AE16-7FA988D1A70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A48DB48-0458-4EB1-AE16-7FA988D1A70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A48DB48-0458-4EB1-AE16-7FA988D1A70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A48DB48-0458-4EB1-AE16-7FA988D1A70D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
