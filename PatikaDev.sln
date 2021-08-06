@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oop_online_film_sitesi", "o
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "algoritma_sorulari_odev1", "algoritma_sorulari_odev1\algoritma_sorulari_odev1.csproj", "{259A752E-6AED-44C7-9733-91B188F14A45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hazir_metodlar_string", "hazir_metodlar_string\hazir_metodlar_string.csproj", "{C3CC1AA2-618F-42BE-89C6-B22D2F50392E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{259A752E-6AED-44C7-9733-91B188F14A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{259A752E-6AED-44C7-9733-91B188F14A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{259A752E-6AED-44C7-9733-91B188F14A45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3CC1AA2-618F-42BE-89C6-B22D2F50392E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3CC1AA2-618F-42BE-89C6-B22D2F50392E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3CC1AA2-618F-42BE-89C6-B22D2F50392E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3CC1AA2-618F-42BE-89C6-B22D2F50392E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
