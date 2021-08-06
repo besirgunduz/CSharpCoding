@@ -29,13 +29,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "metod-overloading", "metod-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "recursive_extension_metodlar", "recursive_extension_metodlar\recursive_extension_metodlar.csproj", "{03932E2E-0C74-43A9-8AD6-4F7839348C51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oop_universite_yonetim_sistemi", "oop_universite_yonetim_sistemi\oop_universite_yonetim_sistemi.csproj", "{8F0AC6C1-929F-412F-8E9A-2E8D83618C8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oop_universite_yonetim_sistemi", "oop_universite_yonetim_sistemi\oop_universite_yonetim_sistemi.csproj", "{8F0AC6C1-929F-412F-8E9A-2E8D83618C8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oop_hayvanat_bahcesi_yonetimi", "oop_hayvanat_bahcesi_yonetimi\oop_hayvanat_bahcesi_yonetimi.csproj", "{A43A5E6F-2E41-4F8A-BADF-2377D2975C4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oop_hayvanat_bahcesi_yonetimi", "oop_hayvanat_bahcesi_yonetimi\oop_hayvanat_bahcesi_yonetimi.csproj", "{A43A5E6F-2E41-4F8A-BADF-2377D2975C4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oop_ucus_yonetim_sistemi", "oop_ucus_yonetim_sistemi\oop_ucus_yonetim_sistemi.csproj", "{87E3BA23-2123-4BAA-A0FE-68A52FCFCA86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oop_ucus_yonetim_sistemi", "oop_ucus_yonetim_sistemi\oop_ucus_yonetim_sistemi.csproj", "{87E3BA23-2123-4BAA-A0FE-68A52FCFCA86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oop_online_film_sitesi", "oop_online_film_sitesi\oop_online_film_sitesi.csproj", "{4A48DB48-0458-4EB1-AE16-7FA988D1A70D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oop_online_film_sitesi", "oop_online_film_sitesi\oop_online_film_sitesi.csproj", "{4A48DB48-0458-4EB1-AE16-7FA988D1A70D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "algoritma_sorulari_odev1", "algoritma_sorulari_odev1\algoritma_sorulari_odev1.csproj", "{259A752E-6AED-44C7-9733-91B188F14A45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{4A48DB48-0458-4EB1-AE16-7FA988D1A70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A48DB48-0458-4EB1-AE16-7FA988D1A70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A48DB48-0458-4EB1-AE16-7FA988D1A70D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{259A752E-6AED-44C7-9733-91B188F14A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{259A752E-6AED-44C7-9733-91B188F14A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{259A752E-6AED-44C7-9733-91B188F14A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{259A752E-6AED-44C7-9733-91B188F14A45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
