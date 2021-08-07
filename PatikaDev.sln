@@ -37,19 +37,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oop_ucus_yonetim_sistemi", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oop_online_film_sitesi", "oop_online_film_sitesi\oop_online_film_sitesi.csproj", "{4A48DB48-0458-4EB1-AE16-7FA988D1A70D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "algoritma_sorulari_odev1", "algoritma_sorulari_odev1\algoritma_sorulari_odev1.csproj", "{259A752E-6AED-44C7-9733-91B188F14A45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "algoritma_sorulari_odev1", "algoritma_sorulari_odev1\algoritma_sorulari_odev1.csproj", "{259A752E-6AED-44C7-9733-91B188F14A45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hazir_metodlar_string", "hazir_metodlar_string\hazir_metodlar_string.csproj", "{C3CC1AA2-618F-42BE-89C6-B22D2F50392E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hazir_metodlar_string", "hazir_metodlar_string\hazir_metodlar_string.csproj", "{C3CC1AA2-618F-42BE-89C6-B22D2F50392E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hazir_metodlar_datetime_math", "hazir_metodlar_datetime_math\hazir_metodlar_datetime_math.csproj", "{94ABE78E-C4C9-4469-8F41-69E212738DAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hazir_metodlar_datetime_math", "hazir_metodlar_datetime_math\hazir_metodlar_datetime_math.csproj", "{94ABE78E-C4C9-4469-8F41-69E212738DAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generic_list", "generic_list\generic_list.csproj", "{724803A3-EAE8-481F-BE82-F6E87BBAFB3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "generic_list", "generic_list\generic_list.csproj", "{724803A3-EAE8-481F-BE82-F6E87BBAFB3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrayList", "arrayList\arrayList.csproj", "{1422AC8C-E2B2-4317-8F29-FB554F096FE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arrayList", "arrayList\arrayList.csproj", "{1422AC8C-E2B2-4317-8F29-FB554F096FE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dictionary", "dictionary\dictionary.csproj", "{33335252-1218-400A-858B-EF03CAA89842}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dictionary", "dictionary\dictionary.csproj", "{33335252-1218-400A-858B-EF03CAA89842}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "algoritma_sorulari_odev2", "algoritma_sorulari_odev2\algoritma_sorulari_odev2.csproj", "{A13CB422-7F67-4CFC-B9FD-CD7B0BBDF989}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "algoritma_sorulari_odev2", "algoritma_sorulari_odev2\algoritma_sorulari_odev2.csproj", "{A13CB422-7F67-4CFC-B9FD-CD7B0BBDF989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "class_kavrami", "class_kavrami\class_kavrami.csproj", "{964CD4B5-AA4E-450A-A875-2B6036936AC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{A13CB422-7F67-4CFC-B9FD-CD7B0BBDF989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A13CB422-7F67-4CFC-B9FD-CD7B0BBDF989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A13CB422-7F67-4CFC-B9FD-CD7B0BBDF989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{964CD4B5-AA4E-450A-A875-2B6036936AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{964CD4B5-AA4E-450A-A875-2B6036936AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{964CD4B5-AA4E-450A-A875-2B6036936AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{964CD4B5-AA4E-450A-A875-2B6036936AC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
