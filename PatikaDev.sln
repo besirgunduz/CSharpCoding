@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "constructor_kavrami", "cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation_kavrami", "Encapsulation_kavrami\Encapsulation_kavrami.csproj", "{D2AE2042-2BB1-4DC8-A15E-4AC7C098E81D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "static_sinif_ve_uyeler", "static_sinif_ve_uyeler\static_sinif_ve_uyeler.csproj", "{8652FDDA-7601-4D1D-A542-49B008AB3C77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{D2AE2042-2BB1-4DC8-A15E-4AC7C098E81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2AE2042-2BB1-4DC8-A15E-4AC7C098E81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2AE2042-2BB1-4DC8-A15E-4AC7C098E81D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8652FDDA-7601-4D1D-A542-49B008AB3C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8652FDDA-7601-4D1D-A542-49B008AB3C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8652FDDA-7601-4D1D-A542-49B008AB3C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8652FDDA-7601-4D1D-A542-49B008AB3C77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
