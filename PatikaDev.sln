@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generic_list", "generic_lis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrayList", "arrayList\arrayList.csproj", "{1422AC8C-E2B2-4317-8F29-FB554F096FE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dictionary", "dictionary\dictionary.csproj", "{33335252-1218-400A-858B-EF03CAA89842}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{1422AC8C-E2B2-4317-8F29-FB554F096FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1422AC8C-E2B2-4317-8F29-FB554F096FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1422AC8C-E2B2-4317-8F29-FB554F096FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33335252-1218-400A-858B-EF03CAA89842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33335252-1218-400A-858B-EF03CAA89842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33335252-1218-400A-858B-EF03CAA89842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33335252-1218-400A-858B-EF03CAA89842}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
