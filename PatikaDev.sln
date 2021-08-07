@@ -53,6 +53,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "algoritma_sorulari_odev2", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "class_kavrami", "class_kavrami\class_kavrami.csproj", "{964CD4B5-AA4E-450A-A875-2B6036936AC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "constructor_kavrami", "constructor_kavrami\constructor_kavrami.csproj", "{37F269BE-AA45-4F62-9DED-F5146EF2141A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{964CD4B5-AA4E-450A-A875-2B6036936AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{964CD4B5-AA4E-450A-A875-2B6036936AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{964CD4B5-AA4E-450A-A875-2B6036936AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F269BE-AA45-4F62-9DED-F5146EF2141A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F269BE-AA45-4F62-9DED-F5146EF2141A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F269BE-AA45-4F62-9DED-F5146EF2141A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F269BE-AA45-4F62-9DED-F5146EF2141A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
