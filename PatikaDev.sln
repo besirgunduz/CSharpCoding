@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrayList", "arrayList\arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dictionary", "dictionary\dictionary.csproj", "{33335252-1218-400A-858B-EF03CAA89842}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "algoritma_sorulari_odev2", "algoritma_sorulari_odev2\algoritma_sorulari_odev2.csproj", "{A13CB422-7F67-4CFC-B9FD-CD7B0BBDF989}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{33335252-1218-400A-858B-EF03CAA89842}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33335252-1218-400A-858B-EF03CAA89842}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33335252-1218-400A-858B-EF03CAA89842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13CB422-7F67-4CFC-B9FD-CD7B0BBDF989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13CB422-7F67-4CFC-B9FD-CD7B0BBDF989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13CB422-7F67-4CFC-B9FD-CD7B0BBDF989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13CB422-7F67-4CFC-B9FD-CD7B0BBDF989}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
