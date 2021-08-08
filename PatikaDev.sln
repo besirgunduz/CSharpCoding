@@ -67,6 +67,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oop_asansor_simulasyonu", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ortalama_hesaplama_projesi", "ortalama_hesaplama_projesi\ortalama_hesaplama_projesi.csproj", "{6A1E5B57-BBD5-4084-805B-53A8566D1618}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ucgen_cizme_projesi", "ucgen_cizme_projesi\ucgen_cizme_projesi.csproj", "{B5D94CE6-6F59-4C19-9010-C9E99DBDBEC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{6A1E5B57-BBD5-4084-805B-53A8566D1618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A1E5B57-BBD5-4084-805B-53A8566D1618}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A1E5B57-BBD5-4084-805B-53A8566D1618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D94CE6-6F59-4C19-9010-C9E99DBDBEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D94CE6-6F59-4C19-9010-C9E99DBDBEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D94CE6-6F59-4C19-9010-C9E99DBDBEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D94CE6-6F59-4C19-9010-C9E99DBDBEC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
