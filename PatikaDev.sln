@@ -65,15 +65,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "interface_kullanimi", "inte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oop_asansor_simulasyonu", "oop_asansor_simulasyonu\oop_asansor_simulasyonu.csproj", "{EDE7B729-B07A-4FE8-8B5F-48D03C823C03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ortalama_hesaplama_projesi", "ortalama_hesaplama_projesi\ortalama_hesaplama_projesi.csproj", "{6A1E5B57-BBD5-4084-805B-53A8566D1618}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ortalama_hesaplama_projesi", "ortalama_hesaplama_projesi\ortalama_hesaplama_projesi.csproj", "{6A1E5B57-BBD5-4084-805B-53A8566D1618}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ucgen_cizme_projesi", "ucgen_cizme_projesi\ucgen_cizme_projesi.csproj", "{B5D94CE6-6F59-4C19-9010-C9E99DBDBEC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ucgen_cizme_projesi", "ucgen_cizme_projesi\ucgen_cizme_projesi.csproj", "{B5D94CE6-6F59-4C19-9010-C9E99DBDBEC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "daire_cizme_projesi", "daire_cizme_projesi\daire_cizme_projesi.csproj", "{2E1D9FD9-E9A9-46BD-9BC7-F139E7B5CEBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "daire_cizme_projesi", "daire_cizme_projesi\daire_cizme_projesi.csproj", "{2E1D9FD9-E9A9-46BD-9BC7-F139E7B5CEBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "algoritma_projesi", "algoritma_projesi\algoritma_projesi.csproj", "{2821CCCC-AE39-4F58-A268-1BFD769FA5F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "algoritma_projesi", "algoritma_projesi\algoritma_projesi.csproj", "{2821CCCC-AE39-4F58-A268-1BFD769FA5F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "karakter_tersten_yazdırma_projesi", "karakter_tersten_yazdırma_projesi\karakter_tersten_yazdırma_projesi.csproj", "{D84E44AB-8D1A-4F55-BDEE-2128B193BA60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "karakter_tersten_yazdırma_projesi", "karakter_tersten_yazdırma_projesi\karakter_tersten_yazdırma_projesi.csproj", "{D84E44AB-8D1A-4F55-BDEE-2128B193BA60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "integer_ikililerin_toplami", "integer_ikililerin_toplami\integer_ikililerin_toplami.csproj", "{56D8115D-A44E-4877-9367-EEB843CCA4B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +227,10 @@ Global
 		{D84E44AB-8D1A-4F55-BDEE-2128B193BA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D84E44AB-8D1A-4F55-BDEE-2128B193BA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D84E44AB-8D1A-4F55-BDEE-2128B193BA60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D8115D-A44E-4877-9367-EEB843CCA4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D8115D-A44E-4877-9367-EEB843CCA4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D8115D-A44E-4877-9367-EEB843CCA4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D8115D-A44E-4877-9367-EEB843CCA4B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
