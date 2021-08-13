@@ -77,6 +77,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "karakter_tersten_yazdırma_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "integer_ikililerin_toplami", "integer_ikililerin_toplami\integer_ikililerin_toplami.csproj", "{56D8115D-A44E-4877-9367-EEB843CCA4B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mutlak_kare_alma", "mutlak_kare_alma\mutlak_kare_alma.csproj", "{38D985F4-AEDB-4351-8419-5F1C7B0D37EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "karakter_degistirme", "karakter_degistirme\karakter_degistirme.csproj", "{C4E72D2B-8E7F-4798-90AA-601748A8C873}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +235,14 @@ Global
 		{56D8115D-A44E-4877-9367-EEB843CCA4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56D8115D-A44E-4877-9367-EEB843CCA4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56D8115D-A44E-4877-9367-EEB843CCA4B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D985F4-AEDB-4351-8419-5F1C7B0D37EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D985F4-AEDB-4351-8419-5F1C7B0D37EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D985F4-AEDB-4351-8419-5F1C7B0D37EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D985F4-AEDB-4351-8419-5F1C7B0D37EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E72D2B-8E7F-4798-90AA-601748A8C873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E72D2B-8E7F-4798-90AA-601748A8C873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E72D2B-8E7F-4798-90AA-601748A8C873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E72D2B-8E7F-4798-90AA-601748A8C873}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
