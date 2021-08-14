@@ -60,5 +60,6 @@
   <ItemGroup>
     <None Include="sql_odev1.sql" />
     <None Include="sql_odev2.sql" />
+    <None Include="sql_odev3.sql" />
   </ItemGroup>
 </Project>
