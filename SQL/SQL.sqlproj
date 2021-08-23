@@ -69,5 +69,6 @@
     <None Include="sql_odev9.sql" />
     <None Include="sql_odev10.sql" />
     <None Include="sql_odev11.sql" />
+    <None Include="sql_odev12.sql" />
   </ItemGroup>
 </Project>
