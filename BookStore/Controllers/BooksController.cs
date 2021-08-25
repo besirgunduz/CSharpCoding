@@ -12,7 +12,7 @@ namespace BookStore.Controllers
     [ApiController]
     public class BooksController : ControllerBase
     {
-        List<Book> BookList = new List<Book>()
+        private static List<Book> BookList = new List<Book>()
         {
             new Book{Id=1,GenreId=1,PageCount=100,Title="Kitap1",PublishDate=new DateTime(2021,08,25)},
             new Book{Id=2,GenreId=1,PageCount=100,Title="Kitap2",PublishDate=new DateTime(2021,08,25)},
@@ -32,6 +32,46 @@ namespace BookStore.Controllers
         {
             var book = BookList.Where(b => b.Id == id).SingleOrDefault();
             return book;
+        }
+
+        [HttpPost("AddBook")]
+        public IActionResult AddBook([FromBody] Book newBook)
+        {
+            var book = BookList.SingleOrDefault(b => b.Id == newBook.Id);
+
+            if (book != null)
+                return BadRequest();
+
+            BookList.Add(newBook);
+            return Ok();
+        }
+
+        [HttpPut("UpdateBook")]
+        public IActionResult UpdateBook([FromBody] Book newBook, int id)
+        {
+            var book = BookList.Where(b => b.Id == id).SingleOrDefault();
+
+            if (book == null)
+                return BadRequest();
+
+            book.GenreId = newBook.GenreId != default ? newBook.GenreId : book.GenreId;
+            book.Title = newBook.Title != default ? newBook.Title : book.Title;
+
+            return Ok();
+
+        }
+
+        [HttpDelete("DeleteBook")]
+        public IActionResult DeleteBook(int id)
+        {
+            var book = BookList.SingleOrDefault(b => b.Id == id);
+
+            if (book == null)
+                return BadRequest();
+
+            BookList.Remove(book);
+
+            return Ok();
         }
     }
 }
