@@ -1,4 +1,5 @@
-﻿using BookStore.Models;
+﻿using BookStore.DBOperations;
+using BookStore.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -12,51 +13,41 @@ namespace BookStore.Controllers
     [ApiController]
     public class BooksController : ControllerBase
     {
-        private static List<Book> BookList = new List<Book>()
+        IAppRepository _appRepository;
+        public BooksController(IAppRepository appRepository)
         {
-            new Book{Id=1,GenreId=1,PageCount=100,Title="Kitap1",PublishDate=new DateTime(2021,08,25)},
-            new Book{Id=2,GenreId=1,PageCount=100,Title="Kitap2",PublishDate=new DateTime(2021,08,25)},
-            new Book{Id=3,GenreId=1,PageCount=100,Title="Kitap3",PublishDate=new DateTime(2021,08,25)}
-
-        };
+            _appRepository = appRepository;
+        }
 
         [HttpGet("GetBooks")]
         public List<Book> GetBooks()
         {
-            var bookList = BookList.OrderBy(b => b.Id).ToList<Book>();
+            var bookList = _appRepository.GetBooks();
             return bookList;
         }
 
         [HttpGet("GetById")]
         public Book GetById(int id)
         {
-            var book = BookList.Where(b => b.Id == id).SingleOrDefault();
+            var book = _appRepository.GetById(id);
             return book;
         }
 
         [HttpPost("AddBook")]
         public IActionResult AddBook([FromBody] Book newBook)
         {
-            var book = BookList.SingleOrDefault(b => b.Id == newBook.Id);
-
-            if (book != null)
-                return BadRequest();
-
-            BookList.Add(newBook);
+            _appRepository.Add(newBook);
+            _appRepository.SaveAll();
             return Ok();
         }
 
         [HttpPut("UpdateBook")]
-        public IActionResult UpdateBook([FromBody] Book newBook, int id)
+        public IActionResult UpdateBook(int id)
         {
-            var book = BookList.Where(b => b.Id == id).SingleOrDefault();
-
-            if (book == null)
-                return BadRequest();
-
-            book.GenreId = newBook.GenreId != default ? newBook.GenreId : book.GenreId;
-            book.Title = newBook.Title != default ? newBook.Title : book.Title;
-
+            var book = _appRepository.GetById(id);
+            book.Name = "Olasılıksız";
+            _appRepository.Update(book);
+            _appRepository.SaveAll();
             return Ok();
 
         }
@@ -64,13 +55,9 @@ namespace BookStore.Controllers
         [HttpDelete("DeleteBook")]
         public IActionResult DeleteBook(int id)
         {
-            var book = BookList.SingleOrDefault(b => b.Id == id);
-
-            if (book == null)
-                return BadRequest();
-
-            BookList.Remove(book);
-
+            var book = _appRepository.GetById(id);
+            _appRepository.Delete(book);
+            _appRepository.SaveAll();
             return Ok();
         }
     }
