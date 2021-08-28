@@ -1,4 +1,5 @@
-﻿using BookStore.Models;
+﻿using BookStore.Dtos;
+using BookStore.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,17 +16,17 @@ namespace BookStore.DBOperations
             _context = context;
         }
 
-        public void Add<T>(T entity) where T : class
+        public void Add<T>(T entity)
         {
             _context.Add(entity);
         }
 
-        public void Delete<T>(T entity) where T : class
+        public void Delete<T>(T entity)
         {
             _context.Remove(entity);
         }
 
-        public void Update<T>(T entity) where T : class
+        public void Update<T>(T entity)
         {
             _context.Update(entity);
         }
