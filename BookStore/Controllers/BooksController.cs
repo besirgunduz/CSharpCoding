@@ -1,4 +1,6 @@
-﻿using BookStore.DBOperations;
+﻿using AutoMapper;
+using BookStore.DBOperations;
+using BookStore.Dtos;
 using BookStore.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -14,39 +16,49 @@ namespace BookStore.Controllers
     public class BooksController : ControllerBase
     {
         IAppRepository _appRepository;
-        public BooksController(IAppRepository appRepository)
+        IMapper _mapper;
+        public BooksController(IAppRepository appRepository, IMapper mapper)
         {
             _appRepository = appRepository;
+            _mapper = mapper;
         }
 
         [HttpGet("GetBooks")]
-        public List<Book> GetBooks()
+        public IActionResult GetBooks()
         {
             var bookList = _appRepository.GetBooks();
-            return bookList;
+            var bookListToReturn = _mapper.Map<List<GetBooksDto>>(bookList);
+            return Ok(bookListToReturn);
         }
 
         [HttpGet("GetById")]
-        public Book GetById(int id)
+        public IActionResult GetById(int id)
         {
             var book = _appRepository.GetById(id);
-            return book;
+            var bookToReturn = _mapper.Map<GetByIdDto>(book);
+            return Ok(bookToReturn);
         }
 
         [HttpPost("AddBook")]
-        public IActionResult AddBook([FromBody] Book newBook)
+        public IActionResult AddBook([FromBody] AddBookDto newBook)
         {
-            _appRepository.Add(newBook);
+            var bookToReturn = _mapper.Map<Book>(newBook);
+            _appRepository.Add(bookToReturn);
             _appRepository.SaveAll();
             return Ok();
         }
 
         [HttpPut("UpdateBook")]
-        public IActionResult UpdateBook(int id)
+        public IActionResult UpdateBook([FromBody] UpdateBookDto updateBook, int id)
         {
             var book = _appRepository.GetById(id);
-            book.Name = "Olasılıksız";
-            _appRepository.Update(book);
+
+            book.Name = updateBook.Name;
+            book.Price = updateBook.Price;
+
+            var bookToReturn = _mapper.Map<Book>(book);
+
+            _appRepository.Update(bookToReturn);
             _appRepository.SaveAll();
             return Ok();
 
