@@ -13,7 +13,6 @@ namespace BookStore.DBOperations
         {
 
         }
-
         public DbSet<Book> Books { get; set; }
     }
 }
