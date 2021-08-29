@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using BookStore.DBOperations;
 using BookStore.Dtos;
+using BookStore.FluentValidation;
 using BookStore.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -8,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FluentValidation;
 
 namespace BookStore.Controllers
 {
@@ -34,33 +36,64 @@ namespace BookStore.Controllers
         [HttpGet("GetById")]
         public IActionResult GetById(int id)
         {
-            var book = _appRepository.GetById(id);
-            var bookToReturn = _mapper.Map<GetByIdDto>(book);
-            return Ok(bookToReturn);
+            try
+            {
+                var book = _appRepository.GetById(id);
+                var bookToReturn = _mapper.Map<GetByIdDto>(book);
+
+                GetByIdDtoValidator validator = new GetByIdDtoValidator();
+                validator.ValidateAndThrow(bookToReturn);
+                return Ok(bookToReturn);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+
         }
 
         [HttpPost("AddBook")]
         public IActionResult AddBook([FromBody] AddBookDto newBook)
         {
-            var bookToReturn = _mapper.Map<Book>(newBook);
-            _appRepository.Add(bookToReturn);
-            _appRepository.SaveAll();
-            return Ok();
+            try
+            {
+                AddBookDtoValidator validator = new AddBookDtoValidator();
+                validator.ValidateAndThrow(newBook);
+
+                var bookToReturn = _mapper.Map<Book>(newBook);
+                _appRepository.Add(bookToReturn);
+                _appRepository.SaveAll();
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpPut("UpdateBook")]
         public IActionResult UpdateBook([FromBody] UpdateBookDto updateBook, int id)
         {
-            var book = _appRepository.GetById(id);
+            try
+            {
+                var book = _appRepository.GetById(id);
 
-            book.Name = updateBook.Name;
-            book.Price = updateBook.Price;
+                book.Name = updateBook.Name;
+                book.Price = updateBook.Price;
 
-            var bookToReturn = _mapper.Map<Book>(book);
+                UpdateBookDtoValidator validator = new UpdateBookDtoValidator();
+                validator.ValidateAndThrow(updateBook);
 
-            _appRepository.Update(bookToReturn);
-            _appRepository.SaveAll();
-            return Ok();
+                var bookToReturn = _mapper.Map<Book>(book);
+
+                _appRepository.Update(bookToReturn);
+                _appRepository.SaveAll();
+                return Ok();
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
 
         }
 
