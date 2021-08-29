@@ -7,6 +7,7 @@ namespace BookStore.Dtos
 {
     public class GetByIdDto
     {
+        public int Id { get; set; }
         public string Name { get; set; }
     }
 }
