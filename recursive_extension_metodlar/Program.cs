@@ -23,6 +23,7 @@ namespace recursive_extension_metodlar
             // Extension Metotlar
 
             string ifade = "Beşir Gündüz";
+            int number = 15;
             bool sonucIfade = ifade.CheckSpaces();
             Console.WriteLine(sonucIfade);
 
@@ -33,6 +34,7 @@ namespace recursive_extension_metodlar
 
             Console.WriteLine(ifade.MakeUpperCase());
             Console.WriteLine(ifade.GetFirstCharacter());
+            Console.WriteLine(number.IsEven());
 
 
         }
@@ -71,6 +73,11 @@ namespace recursive_extension_metodlar
         public static string GetFirstCharacter(this string param)
         {
             return param.Substring(0, 1);
+        }
+
+        public static bool IsEven(this int number)
+        {
+            return number % 2 == 0;
         }
     }
 }
