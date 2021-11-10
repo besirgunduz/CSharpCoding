@@ -177,12 +177,9 @@ namespace algoritma_sorulari_odev2
 
             for (int i = 0; i < cumle.Length; i++)
             {
-                for (int j = 0; j < sesliHarfler.Length; j++)
+                if (sesliHarfler.Contains(cumle[i]))
                 {
-                    if ((cumle[i]) == sesliHarfler[j])
-                    {
-                        harfler.Add(cumle[i]);
-                    }
+                    harfler.Add(cumle[i]);
                 }
             }
 
