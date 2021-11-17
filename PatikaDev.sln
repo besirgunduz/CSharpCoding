@@ -87,7 +87,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore", "BookStore\Book
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutlakKareAlma", "MutlakKareAlma\MutlakKareAlma.csproj", "{923D7ACA-2432-4E0F-97FA-B1817BA6262E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelefonRehberUygulamasi", "TelefonRehberUygulamasi\TelefonRehberUygulamasi.csproj", "{395E41AC-3BAF-47B5-B664-E8B6E78F1570}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelefonRehberUygulamasi", "TelefonRehberUygulamasi\TelefonRehberUygulamasi.csproj", "{395E41AC-3BAF-47B5-B664-E8B6E78F1570}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoUygulamasi", "ToDoUygulamasi\ToDoUygulamasi.csproj", "{1AB87DBA-D8C2-4A11-A34F-6B8888F854A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -269,6 +271,10 @@ Global
 		{395E41AC-3BAF-47B5-B664-E8B6E78F1570}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{395E41AC-3BAF-47B5-B664-E8B6E78F1570}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{395E41AC-3BAF-47B5-B664-E8B6E78F1570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AB87DBA-D8C2-4A11-A34F-6B8888F854A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB87DBA-D8C2-4A11-A34F-6B8888F854A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB87DBA-D8C2-4A11-A34F-6B8888F854A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB87DBA-D8C2-4A11-A34F-6B8888F854A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
