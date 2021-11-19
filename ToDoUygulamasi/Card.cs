@@ -13,6 +13,6 @@ namespace ToDoUygulamasi
         public string Contant { get; set; }
         public int? AssignedPersonId { get; set; }
         public Size Size { get; set; }
-        public virtual AssignedPerson AssignedPerson { get; set; }
+        //public virtual AssignedPerson AssignedPerson { get; set; }
     }
 }
