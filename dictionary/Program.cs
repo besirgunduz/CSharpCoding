@@ -26,6 +26,7 @@ namespace dictionary
 
             //Remove
             kullanicilar.Remove(1993);
+            kullanicilar.Remove(1453);
 
 
         }
