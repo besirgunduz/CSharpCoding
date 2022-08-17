@@ -6,11 +6,14 @@ namespace interface_kullanimi
     {
         static void Main(string[] args)
         {
-            FileLogger fileLogger = new FileLogger();
-            fileLogger.WriteLog();
+            //FileLogger fileLogger = new FileLogger();
+            //fileLogger.WriteLog();
 
-            DatabaseLogger databaseLogger = new(); //farklı bir kullanım
-            databaseLogger.WriteLog();
+            //DatabaseLogger databaseLogger = new();
+            //databaseLogger.WriteLog();
+
+            //ILogger logger = new SmsLogger();
+            //logger.WriteLog();
 
             LogManager logManager = new LogManager(new FileLogger());
             logManager.WriteLog();
