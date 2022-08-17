@@ -13,7 +13,7 @@ namespace constructor_kavrami
 
     class Calisan
     {
-        public Calisan()
+        public Calisan() // yapıcı metotun erişim belirleyicisi private olursa => nesne örneği alınamaz
         {
             Id = 1;
             Adi = "Beşir";
