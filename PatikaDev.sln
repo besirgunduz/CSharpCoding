@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32526.322
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "degisken", "degisken\degisken.csproj", "{28CBB274-29D3-491A-8D44-8F44144B4DD7}"
 EndProject
@@ -74,6 +74,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelefonRehberUygulamasi", "TelefonRehberUygulamasi\TelefonRehberUygulamasi.csproj", "{395E41AC-3BAF-47B5-B664-E8B6E78F1570}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoUygulamasi", "ToDoUygulamasi\ToDoUygulamasi.csproj", "{1AB87DBA-D8C2-4A11-A34F-6B8888F854A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringvsStringBuilder", "StringvsStringBuilder\StringvsStringBuilder.csproj", "{1DEAF784-98BD-48EB-B1C1-D8F5B62E93EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -227,6 +229,10 @@ Global
 		{1AB87DBA-D8C2-4A11-A34F-6B8888F854A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AB87DBA-D8C2-4A11-A34F-6B8888F854A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AB87DBA-D8C2-4A11-A34F-6B8888F854A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DEAF784-98BD-48EB-B1C1-D8F5B62E93EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DEAF784-98BD-48EB-B1C1-D8F5B62E93EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DEAF784-98BD-48EB-B1C1-D8F5B62E93EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DEAF784-98BD-48EB-B1C1-D8F5B62E93EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
