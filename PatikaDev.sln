@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "degisken", "degisken\degisken.csproj", "{28CBB274-29D3-491A-8D44-8F44144B4DD7}"
 EndProject
@@ -65,8 +65,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "karakter_degistirme", "kara
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sessiz_harf", "sessiz_harf\sessiz_harf.csproj", "{1621C880-1BB4-4344-A802-1981A121A7ED}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQL", "SQL\SQL.sqlproj", "{AC2E10EA-5B54-48A5-A526-F2FA578FE101}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore", "BookStore\BookStore.csproj", "{21C61961-D9E4-43DB-AFCF-E38E45B8F2B5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutlakKareAlma", "MutlakKareAlma\MutlakKareAlma.csproj", "{923D7ACA-2432-4E0F-97FA-B1817BA6262E}"
@@ -75,7 +73,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelefonRehberUygulamasi", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoUygulamasi", "ToDoUygulamasi\ToDoUygulamasi.csproj", "{1AB87DBA-D8C2-4A11-A34F-6B8888F854A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringvsStringBuilder", "StringvsStringBuilder\StringvsStringBuilder.csproj", "{1DEAF784-98BD-48EB-B1C1-D8F5B62E93EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringvsStringBuilder", "StringvsStringBuilder\StringvsStringBuilder.csproj", "{1DEAF784-98BD-48EB-B1C1-D8F5B62E93EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,12 +205,6 @@ Global
 		{1621C880-1BB4-4344-A802-1981A121A7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1621C880-1BB4-4344-A802-1981A121A7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1621C880-1BB4-4344-A802-1981A121A7ED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AC2E10EA-5B54-48A5-A526-F2FA578FE101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC2E10EA-5B54-48A5-A526-F2FA578FE101}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC2E10EA-5B54-48A5-A526-F2FA578FE101}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{AC2E10EA-5B54-48A5-A526-F2FA578FE101}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC2E10EA-5B54-48A5-A526-F2FA578FE101}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AC2E10EA-5B54-48A5-A526-F2FA578FE101}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{21C61961-D9E4-43DB-AFCF-E38E45B8F2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{21C61961-D9E4-43DB-AFCF-E38E45B8F2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21C61961-D9E4-43DB-AFCF-E38E45B8F2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
