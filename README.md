@@ -1,1 +1,1 @@
-# PatikaDev - Alıştırmalar
+# C# Kodlama Pratikleri
